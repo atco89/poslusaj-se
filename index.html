@@ -1,776 +1,848 @@
 <!DOCTYPE html >
-<html lang="en">
-
-<head>
-    <title>Poslusaj SE</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="shortcut icon" href="assets/images/favicon.png">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-          rel="stylesheet">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
-
-<body>
-
-<header class="header">
-    <nav class="navbar navbar-expand-lg navbar-light ">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/logo.png" align="logo" class="img-fluid">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav  mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#one">NAŠ ZADATAK</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#two">VAŽNE TEME</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#three">PACIJENTI GOVORE </a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#four">LEKARI GOVORE</a>
-                    </li>
-
-
-                </ul>
-                <div class="nav__social d-md-none d-inline-block">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__link d-md-none d-inline-block">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-phone"></i> +123 456 789 00</a></li>
-                        <li><a href="#"><i class="fa fa-map-marker"></i> Adresa 1a</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </nav>
-</header>
-
-<section class="hero">
-    <div class="bg-video-wrap">
-        <video src="assets/images/production.mp4" loop muted autoplay>
-        </video>
-        <div class="hero__inner">
-            <div class="container">
-                <div class="row justify-content-center align-items-end">
-                    <div class="col-sm-12 col-md-6 col-lg-5">
-                        <h1>Poslušaj me,<br class="d-none d-sm-block"/> poslušaj se!</h1>
-                        <p class="hero__para">
-                            Karcinom pluća je prvi najzastupljeniji malignitet u našoj zemlji od koga godišnje oboli
-                            više od 6. 000 ljudi , a sa koijm bitku godišnje izgubi više od 4.500 građana Srbije
-                        </p>
-                        <div class="hero__btn">
-                            <a href="#" class="btn-play"><span class="play-icon"><i class="fa fa-play"></i></span> Play
-                                Video</a>
-                        </div>
-                        <div class="hero__social d-sm-none d-md-inline-block">
+<html lang="sr-RS">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="title" content=""/>
+        <meta name="og:title" property="og:title" content=""/>
+        <meta name="description" content=""/>
+        <title>Poslusaj SE</title>
+        <!--suppress HtmlUnknownTarget -->
+        <link rel="shortcut icon" href="./assets/images/favicon.png">
+        <!--suppress JSUnresolvedLibraryURL, SpellCheckingInspection -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+              integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+              crossorigin="anonymous">
+        <!--suppress SpellCheckingInspection, JSUnresolvedLibraryURL -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+              crossorigin="anonymous">
+        <!--suppress JSUnresolvedLibraryURL -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+              rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./assets/images/logo.png" alt="logo.png" class="img-fluid"/>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-uppercase" href="#one">Naš zadatak</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#two">Važne teme</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-uppercase" href="#three">Pacijenti govore</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-uppercase" href="#four">Lekari govore</a>
+                            </li>
+                        </ul>
+                        <div class="nav__social d-md-none d-inline-block">
                             <ul>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                <li>
+                                    <a href="#" title="Twitter">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Google Plus">
+                                        <i class="fab fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Facebook">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Instagram">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav__link d-md-none d-inline-block">
+                            <ul>
+                                <li>
+                                    <a href="tel:00381692209219" title="">
+                                        <i class="fas fa-phone"></i> +123 456 789 00
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fas fa-map-marker-alt"></i> Adresa 1a
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-7">
-                        <div class="hero__right text-end ">
-                            <img src="assets/images/borbu.png" alt="borbu" class="img-fluid">
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="section2" id="one">
-
-
-    <div class="section2__inner">
-        <div class="row">
-            <div class="col-sm-6 ord-2">
-                <div class="section2__box">
-                    <div class="hr-line mb-4"></div>
-                    <h3>O KAMPANJI</h3>
-                    <p>
-                        Ovde možete pronaći informacije i savete koji će vam pomoći da se suočite sa bolešću,
-                        prevaziđete teške momente i nastavite da živite sa karcinomom pluća. Karcinom pluća je vodeći
-                        uzrok smrti prouzrokovane svim malignim bolestima u svetu, od koga godišnje oboli u proseku 2,2
-                        miliona pacijenata, a 1,8 miliona pacijenata nažalost umre. Svakih 18 sekundi u svetu karcinom
-                        pluća odnese jedan život. </p>
-                    <p>
-                        Od karcinoma pluća godišnje u Srbiji oboli više od 6.000 osoba a umre 4.600 osoba, što znači da
-                        se ova bolest svakog dana dijagnostikuje kod 16 osoba a 13 osoba svakog dana izgubi bitku sa
-                        ovom teškom bolešću
-                    </p>
-                    <div class="text-end">
-                        <div class="hr-line mt-5"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 text-end">
-                <div class="section2__img">
-                    <img src="assets/images/section2.jpg" alt="section2" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="client">
-    <div class="container">
-        <div class="col-sm-12">
-            <div class="client__logo">
-                <img src="assets/images/client1.png" alt="client1" class="img-fluid">
-                <img src="assets/images/client2.png" alt="client2" class="img-fluid">
-                <img src="assets/images/client3.png" alt="client3" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="tekst" id="two">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="tekst__slider">
-                    <div id="carousel" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst1.jpg" alt="teskt1" class="img-fluid">
+            </nav>
+        </header>
+        <section class="hero">
+            <div class="bg-video-wrap">
+                <video src="./assets/images/production.mp4" loop muted autoplay></video>
+                <div class="hero__inner">
+                    <div class="container">
+                        <div class="row justify-content-center align-items-end">
+                            <div class="col-sm-12 col-md-6 col-lg-5">
+                                <h1>Poslušaj me,<br class="d-none d-sm-block"/>poslušaj se!</h1>
+                                <p class="hero__para">Karcinom pluća je prvi najzastupljeniji malignitet u našoj zemlji
+                                    od koga godišnje oboli više od 6. 000 ljudi , a sa koijm bitku godišnje izgubi više
+                                    od 4.500 građana Srbije</p>
+                                <div class="hero__btn">
+                                    <a href="#" class="btn-play">
+                                        <span class="play-icon"><i class="fa fa-play"></i></span> Play Video
+                                    </a>
                                 </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
+                                <div class="hero__social d-sm-none d-md-inline-block">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Twitter">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Google Plus">
+                                                <i class="fab fa-google-plus"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Facebook">
+                                                <i class="fab fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Instagram">
+                                                <i class="fab fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-7">
+                                <div class="hero__right text-end ">
+                                    <img src="./assets/images/borbu.png" alt="borbu" class="img-fluid"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst2.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst3.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst4.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="tekst yellow-bg">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="tekst__slider">
-                    <div id="carousel2" class="owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst4.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
+        </section>
+        <section class="section2" id="one">
+            <div class="section2__inner">
+                <div class="row">
+                    <div class="col-sm-6 ord-2">
+                        <div class="section2__box">
+                            <div class="hr-line mb-4"></div>
+                            <h3 class="text-uppercase">O kampanji</h3>
+                            <p>Ovde možete pronaći informacije i savete koji će vam pomoći da se suočite sa bolešću,
+                                prevaziđete teške momente i nastavite da živite sa karcinomom pluća. Karcinom pluća je
+                                vodeći uzrok smrti prouzrokovane svim malignim bolestima u svetu, od koga godišnje oboli
+                                u proseku 2,2 miliona pacijenata, a 1,8 miliona pacijenata nažalost umre. Svakih 18
+                                sekundi u svetu karcinom pluća odnese jedan život. </p>
+                            <p>Od karcinoma pluća godišnje u Srbiji oboli više od 6.000 osoba a umre 4.600 osoba, što
+                                znači da se ova bolest svakog dana dijagnostikuje kod 16 osoba a 13 osoba svakog dana
+                                izgubi bitku sa ovom teškom bolešću</p>
+                            <div class="text-end">
+                                <div class="hr-line mt-5"></div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst5.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst6.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <div class="tekst__box">
-                                <div class="tekst__img">
-                                    <img src="assets/images/tekst7.jpg" alt="teskt1" class="img-fluid">
-                                </div>
-                                <div class="tekst__content">
-                                    <h4>Tekst1</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia deserunt mollit anim id est laborum. </p>
-                                    <a href="details.html" class="btn-link">Pročitaj više ></a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="review py-0" id="three">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-5 pe-0">
-                <div class="review__img mb-5" style="background-image: url(assets/images/review1.jpg);">
-
-                </div>
-                <div id="carousel3" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="review__content">
-
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="review__content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="review__content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
+                    <div class="col-sm-6 text-end">
+                        <div class="section2__img">
+                            <img src="./assets/images/section2.jpg" alt="section2" class="img-fluid"/>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2 px-0">
-                <div class="mid-box">
-
+        </section>
+        <section class="client">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="client__logo">
+                        <a href="" title="" target="_blank">
+                            <img src="assets/images/client1.png" alt="client1" class="img-fluid"/>
+                        </a>
+                        <a href="" title="" target="_blank">
+                            <img src="assets/images/client2.png" alt="client2" class="img-fluid"/>
+                        </a>
+                        <a href="" title="" target="_blank">
+                            <img src="assets/images/client3.png" alt="client3" class="img-fluid"/>
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-5 ps-0 review__right">
-                <div id="carousel4" class="owl-carousel owl-theme">
-                    <div class="item">
-                        <div class="review__content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
+        </section>
+        <section class="tekst" id="two">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tekst__slider">
+                            <div id="carousel" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="assets/images/tekst1.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="assets/images/tekst1.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="assets/images/tekst1.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="assets/images/tekst1.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="review__content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="review__content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. </p>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="review__img mt-5" style="background: url(assets/images/testimonial2.png);">
-
                 </div>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="video" id="four">
-    <div class="video__box">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-12 col-lg-5">
-                    <div class="video__frame">
-                        <!--<img src="assets/images/video-main.png" alt="video1" class="img-fluid d-none d-sm-inline-block">
-                        <img src="assets/images/video-mobile.jpg" alt="video1" class="img-fluid d-inline-block d-sm-none">-->
-                        <iframe
-                                src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1">
-                        </iframe>
+        </section>
+        <section class="tekst yellow-bg">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tekst__slider">
+                            <div id="carousel2" class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="./assets/images/tekst4.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="./assets/images/tekst4.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="./assets/images/tekst4.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="tekst__box">
+                                        <div class="tekst__img">
+                                            <img src="./assets/images/tekst4.jpg" alt="teskt1" class="img-fluid"/>
+                                        </div>
+                                        <div class="tekst__content">
+                                            <h4>Tekst1</h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                                occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                                mollit anim id est laborum.</p>
+                                            <a href="details.html" title="Pročitaj više" class="btn-link">
+                                                Pročitaj više >>>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
                 </div>
-                <div class="col-lg-6 col-sm-12 offset-lg-1">
-                    <div class="video__content">
-                        <div class="hr-line yellow-bg mb-4"></div>
-                        <h5 class="mb-3">Lekar: Petar Petrović</h5>
-                        <h5>Tema: Karcinom se leči</h5>
-                        <div id="carousel5" class="owl-carousel owl-theme">
+            </div>
+        </section>
+        <section class="review py-0" id="three">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-5 pe-0">
+                        <div class="review__img mb-5" style="background-image: url('./assets/images/review1.jpg');"></div>
+                        <div id="carousel3" class="owl-carousel owl-theme">
                             <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2 px-0">
+                        <div class="mid-box"></div>
+                    </div>
+                    <div class="col-sm-5 ps-0 review__right">
+                        <div id="carousel4" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
                                 </div>
                             </div>
                             <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                                <div class="review__content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud.</p>
                                 </div>
                             </div>
-                            <div class="item">
-                                <img src="assets/images/video-img.jpg" alt="video-img" class="img-fluid">
-                                <div class="frame-content">
-                                    <p>Biljana Marković </p>
-                                    <p>Tema: Lorem Ipsum</p>
+                        </div>
+                        <div class="review__img mt-5" style="background: url('./assets/images/testimonial2.png');"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="video" id="four">
+            <div class="video__box">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-5">
+                            <div class="video__frame">
+                                <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY?playlist=tgbNymZ7vqY&loop=1"></iframe>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 offset-lg-1">
+                            <div class="video__content">
+                                <div class="hr-line yellow-bg mb-4"></div>
+                                <h5 class="mb-3">Lekar: Petar Petrović</h5>
+                                <h5>Tema: Karcinom se leči</h5>
+                                <div id="carousel5" class="owl-carousel owl-theme">
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <img src="./assets/images/video-img.jpg" alt="video-img" class="img-fluid"/>
+                                        <div class="frame-content">
+                                            <p>Biljana Marković </p>
+                                            <p>Tema: Lorem Ipsum</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="client">
-    <div class="container">
-        <div class="col-sm-12">
-            <div class="client__logo">
-                <img src="assets/images/client1.png" alt="client1" class="img-fluid">
-                <img src="assets/images/client2.png" alt="client2" class="img-fluid">
-                <img src="assets/images/client3.png" alt="client3" class="img-fluid">
-            </div>
-        </div>
-    </div>
-</section>
-
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="footer__logo">
-                    <h5>Poslušaj se</h5>
-                    <p>Društvo Srbije za borbu protiv raka</p>
-                    <div class="footer__social my-5">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        </ul>
+        </section>
+        <section class="client">
+            <div class="container">
+                <div class="col-sm-12">
+                    <div class="client__logo">
+                        <a href="" title="" target="_blank">
+                            <img src="./assets/images/client1.png" alt="client1" class="img-fluid"/>
+                        </a>
+                        <a href="" title="" target="_blank">
+                            <img src="./assets/images/client2.png" alt="client2" class="img-fluid"/>
+                        </a>
+                        <a href="" title="" target="_blank">
+                            <img src="./assets/images/client3.png" alt="client3" class="img-fluid"/>
+                        </a>
                     </div>
-                    <p>© 2021 all rights reserved</p>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="footer__link">
-                    <h5>O Nama</h5>
-                    <ul>
-                        <li><a href="#">Naš zadatak</a></li>
-                        <li><a href="#">Važne teme</a></li>
-                        <li><a href="#">Pacijenti govore</a></li>
-                        <li><a href="#">Lekari govore</a></li>
-                    </ul>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="footer__logo">
+                            <h5>Poslušaj se</h5>
+                            <p>Društvo Srbije za borbu protiv raka</p>
+                            <div class="footer__social my-5">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Twitter" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Google Plus" target="_blank">
+                                            <i class="fab fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Facebook" target="_blank">
+                                            <i class="fab fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Instagram" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>© 2021 all rights reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer__link">
+                            <h5>O Nama</h5>
+                            <ul>
+                                <li>
+                                    <a href="#" title="Naš zadatak">Naš zadatak</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Važne teme">Važne teme</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Pacijenti govore">Pacijenti govore</a>
+                                </li>
+                                <li>
+                                    <a href="#" title="Lekari govore">Lekari govore</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="footer__link">
+                            <h5>Kontakt</h5>
+                            <ul>
+                                <li>
+                                    <a href="tel:00381692209219" title="">
+                                        <i class="fas fa-phone"></i> +123 456 789 00
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" title="">
+                                        <i class="fas fa-map-marker-alt"></i> Adresa 1a
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="footer__link">
-                    <h5>Kontakt</h5>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-phone"></i> +123 456 789 00</a></li>
-                        <li><a href="#"><i class="fa fa-map-marker"></i> Adresa 1a</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+        </footer>
+        <!--suppress JSUnresolvedLibraryURL -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!--suppress JSUnresolvedLibraryURL -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous"></script>
+        <!--suppress JSUnresolvedLibraryURL -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+                crossorigin="anonymous"></script>
+        <!--suppress JSUnresolvedLibraryURL -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function () {
 
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-<script>
-    $(document).ready(function () {
-
-
-        jQuery("#carousel").owlCarousel({
-            autoplay: false,
-            lazyLoad: true,
-            loop: true,
-            margin: 20,
-            dots: true,
-            /*
-           animateOut: 'fadeOut',
-           animateIn: 'fadeIn',
-           */
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            navText: ["<img src='assets/images/arrow-left.png' class='img-fluid'>", "<img src='assets/images/arrow-right.png' class='img-fluid'>"],
-            responsive: {
-                0: {
-                    items: 1,
+                jQuery("#carousel").owlCarousel({
+                    autoplay: false,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 20,
                     dots: true,
+                    /*
+                   animateOut: 'fadeOut',
+                   animateIn: 'fadeIn',
+                   */
+                    responsiveClass: true,
+                    autoHeight: true,
+                    autoplayTimeout: 7000,
+                    smartSpeed: 800,
+                    nav: true,
+                    navText: ["<img src='assets/images/arrow-left.png' class='img-fluid'>", "<img src='assets/images/arrow-right.png' class='img-fluid'>"],
+                    responsive: {
+                        0: {
+                            items: 1,
+                            dots: true,
 
-                },
+                        },
 
-                600: {
-                    items: 2
-                },
+                        600: {
+                            items: 2
+                        },
 
-                1024: {
-                    items: 3
-                },
+                        1024: {
+                            items: 3
+                        },
 
-                1366: {
-                    items: 3
-                }
-            }
-        });
-
-        jQuery("#carousel2").owlCarousel({
-            autoplay: false,
-            lazyLoad: true,
-            loop: true,
-            margin: 20,
-            dots: true,
-            /*
-           animateOut: 'fadeOut',
-           animateIn: 'fadeIn',
-           */
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            navText: ["<img src='assets/images/arrow-left.png' class='img-fluid'>", "<img src='assets/images/arrow-right.png' class='img-fluid'>"],
-            responsive: {
-                0: {
-                    items: 1,
-                    dots: true,
-
-                },
-
-                600: {
-                    items: 2
-                },
-
-                1024: {
-                    items: 3
-                },
-
-                1366: {
-                    items: 3
-                }
-            }
-        });
-
-
-        jQuery("#carousel3").owlCarousel({
-            autoplay: false,
-            lazyLoad: true,
-            loop: true,
-            margin: 20,
-            dots: true,
-            /*
-           animateOut: 'fadeOut',
-           animateIn: 'fadeIn',
-           */
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    dots: true,
-
-                },
-
-                600: {
-                    items: 1
-                },
-
-                1024: {
-                    items: 1
-                },
-
-                1366: {
-                    items: 1
-                }
-            }
-        });
-
-        jQuery("#carousel4").owlCarousel({
-            autoplay: false,
-            lazyLoad: true,
-            loop: true,
-            margin: 20,
-            dots: true,
-            /*
-           animateOut: 'fadeOut',
-           animateIn: 'fadeIn',
-           */
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    dots: true,
-
-                },
-
-                600: {
-                    items: 1
-                },
-
-                1024: {
-                    items: 1
-                },
-
-                1366: {
-                    items: 1
-                }
-            }
-        });
-
-        jQuery("#carousel5").owlCarousel({
-            autoplay: false,
-            lazyLoad: true,
-            loop: true,
-            margin: 20,
-            dots: true,
-            /*
-           animateOut: 'fadeOut',
-           animateIn: 'fadeIn',
-           */
-            responsiveClass: true,
-            autoHeight: true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            nav: true,
-            responsive: {
-                0: {
-                    items: 2,
-                    dots: true,
-
-                },
-
-                600: {
-                    items: 2
-                },
-
-                1024: {
-                    items: 2
-                },
-
-                1366: {
-                    items: 3
-                }
-            }
-        });
-
-
-        $(".nav-item .nav-link").click(function () {
-            $(".nav-link").removeClass("active");
-            $(this).addClass("active");
-        })
-        $(".navbar-toggler").click(function () {
-            $(this).parents(".header").toggleClass("red-bg");
-
-        })
-
-
-        $(window).scroll(function () {
-            var sticky = $('.header'),
-                scroll = $(window).scrollTop();
-
-            if (scroll >= 100) sticky.addClass('fixed');
-            else sticky.removeClass('fixed');
-        });
-
-        // Select all links with hashes
-        $('.nav-link')
-            // Remove links that don't actually link to anything
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .click(function (event) {
-                // On-page links
-                if (
-                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-                    &&
-                    location.hostname == this.hostname
-                ) {
-                    // Figure out element to scroll to
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                    // Does a scroll target exist?
-                    if (target.length) {
-                        // Only prevent default if animation is actually gonna happen
-                        event.preventDefault();
-                        $('html, body').animate({
-                            scrollTop: target.offset().top - 100
-                        }, 1000, function () {
-                            // Callback after animation
-                            // Must change focus!
-                            var $target = $(target);
-                            $target.focus();
-                            if ($target.is(":focus")) { // Checking if the target was focused
-                                return false;
-                            } else {
-                                $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                                $target.focus(); // Set focus again
-                            }
-                            ;
-                        });
+                        1366: {
+                            items: 3
+                        }
                     }
-                }
+                });
+
+                jQuery("#carousel2").owlCarousel({
+                    autoplay: false,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 20,
+                    dots: true,
+                    /*
+                   animateOut: 'fadeOut',
+                   animateIn: 'fadeIn',
+                   */
+                    responsiveClass: true,
+                    autoHeight: true,
+                    autoplayTimeout: 7000,
+                    smartSpeed: 800,
+                    nav: true,
+                    navText: ["<img src='assets/images/arrow-left.png' class='img-fluid'>", "<img src='assets/images/arrow-right.png' class='img-fluid'>"],
+                    responsive: {
+                        0: {
+                            items: 1,
+                            dots: true,
+
+                        },
+
+                        600: {
+                            items: 2
+                        },
+
+                        1024: {
+                            items: 3
+                        },
+
+                        1366: {
+                            items: 3
+                        }
+                    }
+                });
+
+
+                jQuery("#carousel3").owlCarousel({
+                    autoplay: false,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 20,
+                    dots: true,
+                    /*
+                   animateOut: 'fadeOut',
+                   animateIn: 'fadeIn',
+                   */
+                    responsiveClass: true,
+                    autoHeight: true,
+                    autoplayTimeout: 7000,
+                    smartSpeed: 800,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            dots: true,
+
+                        },
+
+                        600: {
+                            items: 1
+                        },
+
+                        1024: {
+                            items: 1
+                        },
+
+                        1366: {
+                            items: 1
+                        }
+                    }
+                });
+
+                jQuery("#carousel4").owlCarousel({
+                    autoplay: false,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 20,
+                    dots: true,
+                    /*
+                   animateOut: 'fadeOut',
+                   animateIn: 'fadeIn',
+                   */
+                    responsiveClass: true,
+                    autoHeight: true,
+                    autoplayTimeout: 7000,
+                    smartSpeed: 800,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            dots: true,
+
+                        },
+
+                        600: {
+                            items: 1
+                        },
+
+                        1024: {
+                            items: 1
+                        },
+
+                        1366: {
+                            items: 1
+                        }
+                    }
+                });
+
+                jQuery("#carousel5").owlCarousel({
+                    autoplay: false,
+                    lazyLoad: true,
+                    loop: true,
+                    margin: 20,
+                    dots: true,
+                    /*
+                   animateOut: 'fadeOut',
+                   animateIn: 'fadeIn',
+                   */
+                    responsiveClass: true,
+                    autoHeight: true,
+                    autoplayTimeout: 7000,
+                    smartSpeed: 800,
+                    nav: true,
+                    responsive: {
+                        0: {
+                            items: 2,
+                            dots: true,
+
+                        },
+
+                        600: {
+                            items: 2
+                        },
+
+                        1024: {
+                            items: 2
+                        },
+
+                        1366: {
+                            items: 3
+                        }
+                    }
+                });
+
+
+                $(".nav-item .nav-link").click(function () {
+                    $(".nav-link").removeClass("active");
+                    $(this).addClass("active");
+                })
+                $(".navbar-toggler").click(function () {
+                    $(this).parents(".header").toggleClass("red-bg");
+
+                })
+
+
+                $(window).scroll(function () {
+                    var sticky = $('.header'),
+                        scroll = $(window).scrollTop();
+
+                    if (scroll >= 100) sticky.addClass('fixed');
+                    else sticky.removeClass('fixed');
+                });
+
+                // Select all links with hashes
+                $('.nav-link')
+                    // Remove links that don't actually link to anything
+                    .not('[href="#"]')
+                    .not('[href="#0"]')
+                    .click(function (event) {
+                        // On-page links
+                        if (
+                            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+                            &&
+                            location.hostname == this.hostname
+                        ) {
+                            // Figure out element to scroll to
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            // Does a scroll target exist?
+                            if (target.length) {
+                                // Only prevent default if animation is actually gonna happen
+                                event.preventDefault();
+                                $('html, body').animate({
+                                    scrollTop: target.offset().top - 100
+                                }, 1000, function () {
+                                    // Callback after animation
+                                    // Must change focus!
+                                    var $target = $(target);
+                                    $target.focus();
+                                    if ($target.is(":focus")) { // Checking if the target was focused
+                                        return false;
+                                    } else {
+                                        $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                                        $target.focus(); // Set focus again
+                                    }
+                                    ;
+                                });
+                            }
+                        }
+                    });
+
             });
-
-    });
-
-
-</script>
-</body>
-
+        </script>
+    </body>
 </html>

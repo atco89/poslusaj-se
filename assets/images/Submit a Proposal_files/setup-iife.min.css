@@ -1,1 +1,0 @@
-body:not(.keyboard-user):not(.kb-nav) :focus{--focus-outline:0;outline:0!important}body.keyboard-user :focus{--focus-outline:auto;outline-color:var(--brand-primary)}
